@@ -1,4 +1,5 @@
 set nocompatible              " 去除VI一致性,必须要添加
+set runtimepath^=~/.vim/bundle/nerdtree
 filetype off                  " 必须要添加
 
 " 设置包括vundle和初始化相关的runtime path
@@ -6,13 +7,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " vim-scripts 中的插件 "
-Plugin 'taglist.vim'
+"Plugin 'taglist.vim'
 "ctags 配置:F3快捷键显示程序中的各种tags，包括变量和函数等。
-map <F3> :TlistToggle<CR>
-let Tlist_Use_Right_Window=1
-let Tlist_Show_One_File=1
-let Tlist_Exit_OnlyWindow=1
-let Tlist_WinWidt=25
+"map <F3> :TlistToggle<CR>
+"let Tlist_Use_Right_Window=1
+"let Tlist_Show_One_File=1
+"let Tlist_Exit_OnlyWindow=1
+"let Tlist_WinWidt=25
 
 Plugin 'The-NERD-tree'
 "NERDTree 配置:F2快捷键显示当前目录树
