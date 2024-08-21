@@ -9,5 +9,5 @@ sh config_vim.sh
 
 ## Function (to be updated)
 ### nerdtree
-press <F2> button to enable navigation bar.
+press \<F2\> button to enable navigation bar.
 
