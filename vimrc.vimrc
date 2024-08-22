@@ -15,7 +15,7 @@ call vundle#begin()
 "let Tlist_Exit_OnlyWindow=1
 "let Tlist_WinWidt=25
 
-Plugin 'The-NERD-tree'
+"Plugin 'The-NERD-tree'
 "NERDTree 配置:F2快捷键显示当前目录树
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeWinSize=50
