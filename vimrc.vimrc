@@ -1,3 +1,7 @@
+set termencoding=utf-8
+set encoding=utf8
+set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
+
 set nocompatible              " 去除VI一致性,必须要添加
 set runtimepath^=~/.vim/bundle/nerdtree
 filetype off                  " 必须要添加
